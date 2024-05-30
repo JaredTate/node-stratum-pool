@@ -14,9 +14,9 @@
         "yespower",
         "lyra2re2"
     ],
-    "homepage": "https://github.com/ROZ-MOFUMOFU-ME/node-stratum-pool",
+    "homepage": "https://github.com/JaredTate/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/ROZ-MOFUMOFU-ME/node-stratum-pool/issues"
+        "url": "https://github.com/JaredTate/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -27,14 +27,14 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ROZ-MOFUMOFU-ME/node-stratum-pool.git"
+        "url": "https://github.com/JaredTate/node-stratum-pool.git"
     },
     "dependencies": {
         "async": "^3.2.5",
         "bchaddrjs": "^0.5.2",
         "bs58check": "^3.0.1",
         "bitcoinjs-lib": "^5.2.0",
-        "multi-hashing": "git+https://github.com/ROZ-MOFUMOFU-ME/node-multi-hashing.git"
+        "multi-hashing": "git+https://github.com/JaredTate/node-multi-hashing.git"
     },
     "engines": {
         "node": ">=16"
