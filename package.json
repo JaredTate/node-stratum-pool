@@ -34,7 +34,6 @@
         "bchaddrjs": "^0.5.2",
         "bs58check": "^3.0.1",
         "bitcoinjs-lib": "^5.2.0",
-        "bignum": "https://github.com/JaredTate/node-bignum.git",
         "multi-hashing": "git+https://github.com/JaredTate/node-multi-hashing.git"
     },
     "engines": {
