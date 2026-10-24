@@ -26,7 +26,7 @@
     ],
     "main": "lib/index.js",
     "scripts": {
-        "test": "node lib/test.js"
+        "test": "node lib/test.js && node lib/test_versionroll.js && node lib/test_stratum_input.js"
     },
     "repository": {
         "type": "git",
@@ -36,7 +36,7 @@
         "@exodus/bitcoinjs-lib-zcash": "^0.0.14",
         "async": "^3.2.6",
         "bitcoinjs-lib": "^6.1.7",
-        "multi-hashing": "https://github.com/JaredTate/node-multi-hashing.git"
+        "multi-hashing": "git+https://github.com/JaredTate/node-multi-hashing.git#8071529acc6d3a7f70ccd0d9ab65bfe1e1a6026a"
     },
     "engines": {
         "node": ">=16",
